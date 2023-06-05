@@ -15,6 +15,7 @@ public class FileUpload2 {
 		driver.findElement(By.id("browse")).click();
 
 		Thread.sleep(3000);
+		System.out.println("MERGE");
 
 		// AutoIT code gets compiled to .exe, then .getRuntime method will execute our
 		// exe
