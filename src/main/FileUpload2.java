@@ -14,7 +14,7 @@ public class FileUpload2 {
 		driver.get("https://altoconvertpdftojpg.com/");
 		driver.findElement(By.id("browse")).click();
 
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 
 		// AutoIT code gets compiled to .exe, then .getRuntime method will execute our
 		// exe
